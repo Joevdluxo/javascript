@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises</title>
+</head>
+<body>
+    
+    <input type="text" id="pais">
+    <input type="button" value="verificar" id="verificar">
+    <div id="resul"></div>
+
+<script>
+var nac = document.querySelector('#pais').value
+
+var button = document.querySelector('#verificar')
+var res = document.querySelector('#resul')
+
+button.addEventListener('click', clicou)
+
+function clicou(){
+
+if(nac.value == 'brasil'){
+    res.innerHTML = 'brasileiro'
+} else{
+    res.innerHTML = 'gringo'
+}
+
+
+// res.innerHTML = `${nac.value}`
+}
+
+</script>
+
+</body>
+</html>
