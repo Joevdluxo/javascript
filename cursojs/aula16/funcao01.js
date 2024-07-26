@@ -1,6 +1,9 @@
 
-var n = 6
+const n = 634534561
 
+console.log(parimp(n))
+console.log(div3(n))
+console.log(div4(n))
 
 function parimp(n){
     if(n%2 == 0){
@@ -18,7 +21,20 @@ function div3(n){
     }
 } 
 
-let par = parimp(n)
-let divp3 = div3(n)
-console.log(par)
-console.log(divp3)
+function div4(n){
+    if(n%4!==0){
+        return `${n} Não é divisivel por 4`
+    }else{
+        return `${n} É divisivel por 4`
+    }
+}
+
+function div5(n){
+    if(n%4!==0){
+        return `${n} Não é divisivel por 4`
+    }else{
+        return `${n} É divisivel por 4`
+    }
+}
+
+
