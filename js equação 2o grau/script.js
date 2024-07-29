@@ -18,9 +18,6 @@ function calcular(){
         res.innerHTML = `As possíveis raizes de X são ${raiz1} e ${raiz2}`
 
     }else{
-        
         res.innerHTML = 'Não há raizes possíveis!!'
     }
-
-
 }
